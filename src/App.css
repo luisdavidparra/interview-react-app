@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 320px;
 }
 
 .App-logo {
@@ -23,9 +24,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.average{
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.cont {
+  transition: margin-left 0.5s;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +43,11 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title-h1 {  
+    display: none;
   }
 }

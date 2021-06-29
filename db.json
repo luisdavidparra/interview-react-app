@@ -1,0 +1,2497 @@
+{
+  "technologies": [
+    {
+      "tec": "HTML",
+      "id": 1
+    },
+    {
+      "tec": "CSS",
+      "id": 2
+    },
+    {
+      "tec": "JavaScript",
+      "id": 3
+    },
+    {
+      "tec": "ReactJS",
+      "id": 4
+    },
+    {
+      "tec": "Bootstrap",
+      "id": 5
+    },
+    {
+      "tec": "AngularJS",
+      "id": 6
+    },
+    {
+      "tec": "TypeScript",
+      "id": 7
+    }
+  ],
+  "interviews": [
+    {
+      "name": "Mc",
+      "lastName": "Dinero",
+      "date": {
+        "dayWeek": 3,
+        "day": 26,
+        "month": 4,
+        "hour": 0,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "JavaScript": {
+            "average": 83.33333333333333,
+            "goodAnswers": 10,
+            "totalPosible": 12
+          }
+        },
+        {
+          "CSS": {
+            "average": 66.66666666666667,
+            "goodAnswers": 8,
+            "totalPosible": 12
+          }
+        }
+      ],
+      "totalAverage": 75,
+      "id": 13
+    },
+    {
+      "name": "Mc",
+      "lastName": "Dinero",
+      "date": {
+        "dayWeek": 3,
+        "day": 26,
+        "month": 4,
+        "hour": 0,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "JavaScript": {
+            "average": 83.33333333333333,
+            "goodAnswers": 10,
+            "totalPosible": 12
+          }
+        },
+        {
+          "CSS": {
+            "average": 66.66666666666667,
+            "goodAnswers": 8,
+            "totalPosible": 12
+          }
+        }
+      ],
+      "totalAverage": 75,
+      "id": 13
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 5,
+        "day": 28,
+        "month": 4,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "JavaScript": {
+            "average": 100,
+            "goodAnswers": 12,
+            "totalPosible": 12
+          }
+        },
+        {
+          "CSS": {
+            "average": 100,
+            "goodAnswers": 12,
+            "totalPosible": 12
+          }
+        }
+      ],
+      "totalAverage": 100,
+      "id": 628633027505
+    },
+    {
+      "name": "Michael",
+      "lastName": "Jota",
+      "date": {
+        "dayWeek": 2,
+        "day": 15,
+        "month": 5,
+        "hour": 18,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 75,
+            "goodAnswers": 9,
+            "totalPosible": 12
+          }
+        },
+        {
+          "C#": {
+            "average": 100,
+            "goodAnswers": 12,
+            "totalPosible": 12
+          }
+        }
+      ],
+      "totalAverage": 87.5,
+      "id": 901578944274
+    },
+    {
+      "name": "Fran ",
+      "lastName": "ConUwU",
+      "date": {
+        "dayWeek": 3,
+        "day": 16,
+        "month": 5,
+        "hour": 15,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "CSS": {
+            "average": 66.66666666666667,
+            "goodAnswers": 12,
+            "totalPosible": 18
+          }
+        }
+      ],
+      "totalAverage": 66.66666666666667,
+      "id": 1464877699599
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 653848069944
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1020206379690
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 15458488151
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 668859757224
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1227486280804
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1081442602849
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 817320473896
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 553236757868
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 444366833927
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 906351387443
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1031222764959
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1526838228795
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1365284719170
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 101162388090
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 604812022499
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 831819830374
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1511757353164
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1130093867984
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1352721985559
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 4357142565
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 582854196405
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 467205878687
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 525394040578
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 1036716187756
+    },
+    {
+      "name": "Gon",
+      "lastName": "Freecss",
+      "date": {
+        "dayWeek": 4,
+        "day": 17,
+        "month": 5,
+        "hour": 20,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "HTML": {
+            "average": 61.111111111111114,
+            "goodAnswers": 11,
+            "totalPosible": 18
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        },
+        {
+          "HTML": {
+            "totalPosible": 0
+          }
+        }
+      ],
+      "totalAverage": 61.111111111111114,
+      "id": 717991989341
+    }
+  ]
+}

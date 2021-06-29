@@ -1,0 +1,15 @@
+.middle-size {
+    display: inline;
+  }
+  .small-size {
+    display: none;
+  }
+
+@media screen and (max-width: 880px) {
+  .middle-size {
+    display: none;
+  }
+  .small-size {
+    display: inline;
+  }
+}

@@ -1,0 +1,28 @@
+svg {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  
+}
+
+svg circle {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  stroke: #000;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  transition: all  2s;
+}
+
+svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: rgb(200, 200, 200);
+}
+
+svg circle:nth-child(2) {
+  stroke: rgb(0, 110, 255);
+}
