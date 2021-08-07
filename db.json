@@ -27,6 +27,14 @@
     {
       "tec": "TypeScript",
       "id": 7
+    },
+    {
+      "tec": "Marketing",
+      "id": 8
+    },
+    {
+      "tec": "Comida",
+      "id": 9
     }
   ],
   "interviews": [
@@ -116,35 +124,6 @@
       ],
       "totalAverage": 100,
       "id": 628633027505
-    },
-    {
-      "name": "Michael",
-      "lastName": "Jota",
-      "date": {
-        "dayWeek": 2,
-        "day": 15,
-        "month": 5,
-        "hour": 18,
-        "year": 2021
-      },
-      "userScoreInfo": [
-        {
-          "HTML": {
-            "average": 75,
-            "goodAnswers": 9,
-            "totalPosible": 12
-          }
-        },
-        {
-          "C#": {
-            "average": 100,
-            "goodAnswers": 12,
-            "totalPosible": 12
-          }
-        }
-      ],
-      "totalAverage": 87.5,
-      "id": 901578944274
     },
     {
       "name": "Fran ",
@@ -2492,6 +2471,35 @@
       ],
       "totalAverage": 61.111111111111114,
       "id": 717991989341
+    },
+    {
+      "name": "Cristiano",
+      "lastName": "Ronaldo",
+      "date": {
+        "dayWeek": 5,
+        "day": 16,
+        "month": 6,
+        "hour": 11,
+        "year": 2021
+      },
+      "userScoreInfo": [
+        {
+          "Marketing": {
+            "average": 83.33333333333333,
+            "goodAnswers": 15,
+            "totalPosible": 18
+          }
+        },
+        {
+          "Comida": {
+            "average": 66.66666666666667,
+            "goodAnswers": 12,
+            "totalPosible": 18
+          }
+        }
+      ],
+      "totalAverage": 75,
+      "id": 721039927146
     }
   ]
 }

@@ -1,6 +1,5 @@
-import React from "react";
 import { useParams } from "react-router";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import AverageCircle from "./AverageCircle";
 
 const IndividualResults = () => {

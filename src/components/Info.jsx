@@ -8,13 +8,17 @@ const Info = () => {
           <li>Create and Delete interviews.</li>
           <li>View a paginated list of existing interviews.</li>
           <li>View the results of each existing interviews.</li>
-          <li>In the <b>new interview</b> section you can pick the technologies to ask.</li>
-          <li>In the <b>list of quest</b> section you edit the technologies allowed to ask.</li>
+          <li>
+            In the <b>new interview</b> section you can pick the technologies to ask.
+          </li>
+          <li>
+            In the <b>list of quest</b> section you edit the technologies allowed to ask.
+          </li>
         </ul>
         <hr />
         <p className="card-text">
           This app have his own server to store and manage the data, if it doesn't work you just need to use this
-          command in your ID:
+          command in your IDE:
           <b> npm run server</b>
         </p>
         <a href="https://github.com/luisdavidparra" target="_blank" className="text-end d-block" rel="noreferrer">
