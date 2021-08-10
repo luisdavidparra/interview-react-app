@@ -1,6 +1,3 @@
-import React from "react";
-import { Link as button } from "react-router-dom";
-
 const PaginationBar = ({ postPerPage, totalPost, paginate, currentPage }) => {
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(totalPost / postPerPage); i++) {

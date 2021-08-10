@@ -14,23 +14,20 @@ const Posts = ({ posts, deleteInterview, currentPage, postPerPage }) => {
   }, [posts]);
 
   if (loading) {
-    return <h4>Loading...</h4>;
+    return null;
   }
   return (
     <>
       {posts.map((current, index) => {
-        const { day, month, year, dayWeek } = current.date;
-        const daysOfWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
         return (
           <tr key={index} className="align-middle row">
             <th scope="row" className="col-1 text-center">
               {number + index + 1}
             </th>
-            <td className="col-4 align-items-center d-flex">{`${current.name} ${current.lastName}`}</td>
+            <td className="col-4 align-items-center d-flex">{`${current.name} ${current.lastname}`}</td>
             <td className="col-2 align-items-center d-flex">{current.totalAverage.toFixed(0)}</td>
             <td className="col-3 align-items-center d-flex">
-              {day}/{month + 1}/{year}
-              {/* ({daysOfWeek[dayWeek + 1]}) */}
+              {current.date.day}/{current.date.month}/{current.date.year}
             </td>
             <td className="col-2">
               <div className="row d-flex justify-content-around ">

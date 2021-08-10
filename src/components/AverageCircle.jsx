@@ -1,7 +1,4 @@
 import "./AverageCircle.css";
-import React from "react";
-import { useDataContext } from "../contexts/DataContext";
-import { useState } from "react/cjs/react.development";
 
 const AverageCircle = ({ totalAverage }) => {
   const valueData = 440 - (440 * totalAverage) / 100;

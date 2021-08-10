@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
-
 const ListOfQuest = () => {
   const [technologies, setTechnologies] = useState([]);
 
@@ -51,6 +50,14 @@ const ListOfQuest = () => {
     };
     getTec();
   }, []);
+
+  if (!technologies) {
+    return (
+      <div className="spinner-border" role="status">
+        <span className="sr-only">Loading...</span>
+      </div>
+    );
+  }
   return (
     <>
       <div className="col-12 col-md-10 m-auto">
@@ -61,9 +68,12 @@ const ListOfQuest = () => {
           <ul className="list-group">
             {technologies.map((tec) => (
               <li className="align-items-center d-flex justify-content-between list-group-item">
-                {tec.tec}{" "}
-                <button className="align-items-center btn btn-danger d-flex float-end fs-5 justify-content-center p-3" onClick={() => onDeleteTec(tec.tec, tec.id)}>
-                <FontAwesomeIcon icon={faTrash} />
+                {tec.name}{" "}
+                <button
+                  className="align-items-center btn btn-danger d-flex float-end fs-5 justify-content-center p-3"
+                  onClick={() => onDeleteTec(tec.tec, tec.id)}
+                >
+                  <FontAwesomeIcon icon={faTrash} />
                 </button>
               </li>
             ))}
@@ -78,7 +88,9 @@ const ListOfQuest = () => {
                   Save
                 </button>
               </form>
-                {technologies.length > 12 && <span className="text-center d-block text-danger">To much technologies saved</span>}
+              {technologies.length > 12 && (
+                <span className="text-center d-block text-danger">To much technologies saved</span>
+              )}
             </li>
           </ul>
         )}

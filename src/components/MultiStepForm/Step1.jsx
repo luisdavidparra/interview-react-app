@@ -1,11 +1,13 @@
 import { FormGroup, FormText, Input, Label } from "reactstrap";
-import { useFormContext } from "react-hook-form";
+import { useDataContext } from "./../../contexts/DataContext";
 
 const Step1 = () => {
+  const { methods } = useDataContext();
   const {
     register,
     formState: { errors },
-  } = useFormContext();
+  } = methods;
+
   return (
     <>
       <FormGroup sm={10}>
@@ -17,7 +19,6 @@ const Step1 = () => {
           {...register("name", { required: { value: true, message: "type a name" } })}
           invalid={errors.name}
         />
-
         {errors.name && <FormText className="text-danger">{errors.name.message}</FormText>}
       </FormGroup>
       <FormGroup>

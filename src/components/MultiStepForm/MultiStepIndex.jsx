@@ -1,34 +1,32 @@
-import { Button, Card, Form, FormGroup, FormText, Input, Label } from "reactstrap";
+import { Button, Card, Form } from "reactstrap";
 import { useState, useEffect } from "react";
-import { useFormContext, useForm } from "react-hook-form";
 import Step1 from "./Step1";
-import { getAllTechnologies } from "../../services/technologies";
+import Step2 from "./Step2";
 import Questions from "./QuestionsStep";
+import { useDataContext } from "./../../contexts/DataContext";
+import { getAllQuestions } from "../../services/questions";
 
 const MultiStepIndex = () => {
-  const [technologies, setTechnologies] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const { methods } = useDataContext();
   const [step, setStep] = useState(0);
-  // const {
-  //   watch,
-  //   register,
-  //   handleSubmit,
-  //   formState: { errors, isValid },
-  // } = useForm({ mode: "all" });
-
   const {
     watch,
     handleSubmit,
-    register,
-    formState: { errors, isValid },
-  } = useFormContext();
+    formState: { isValid },
+  } = methods;
 
-  useEffect(() => {
-    const getTec = async () => {
-      const data = await getAllTechnologies();
-      setTechnologies(data);
-    };
-    getTec();
-  }, []);
+  const setAverage = () => {
+    const sum = Object.values(watch()).reduce((accum, curr) => {
+      if ([...Array(7).keys()].includes(parseInt(curr))) {
+        return accum + parseInt(curr);
+      } else {
+        return accum;
+      }
+    }, 0);
+    const average = (sum * 100) / (watch().tecToAsk.length * questions.length * 6);
+    return average;
+  };
 
   const completeFormStep = (num) => {
     console.log(watch());
@@ -38,14 +36,52 @@ const MultiStepIndex = () => {
       setStep((step) => step - 1);
     }
   };
-  const onSubmit = (data) => console.log(data);
+
+  const onAddNewInterview = (e) => {
+    fetch(`http://localhost:8080/interviews`, {
+      method: "POST",
+      headers: { "Content-type": "application/json" },
+      body: JSON.stringify(e),
+    });
+    console.log("added");
+  };
+
+  const onSubmit = async (data) => {
+    const totalAverage = await setAverage();
+    const date = new Date();
+    const dateHour = date.getHours();
+    const dateDay = date.getDate();
+    const dateDayWeek = date.getDay();
+    const dateMonth = date.getMonth();
+    const dateYear = date.getFullYear();
+
+    const newUser = {
+      ...data,
+      totalAverage: totalAverage,
+      date: { dayWeek: dateDayWeek, day: dateDay, month: dateMonth, hour: dateHour, year: dateYear },
+    };
+    onAddNewInterview(newUser);
+  };
+
+  useEffect(() => {
+    const getQuest = async () => {
+      const data = await getAllQuestions();
+      setQuestions(data);
+    };
+    getQuest();
+  }, []);
 
   const renderButton = () => {
     if (step > 1) {
       return (
-        <Button color="primary" onClick={handleSubmit(onSubmit)} disabled={!isValid}>
-          Save
-        </Button>
+        <>
+          <Button color="primary" onClick={handleSubmit(onSubmit)} disabled={!isValid}>
+            Save
+          </Button>
+          <Button color="danger" onClick={() => completeFormStep(-1)}>
+            Back
+          </Button>
+        </>
       );
     } else {
       return (
@@ -62,75 +98,20 @@ const MultiStepIndex = () => {
   };
   return (
     <Card>
-      <Form>
+      <Form onSubmit={handleSubmit(onSubmit)}>
         {step === 0 && (
           <section className="text-start p-4">
-            <FormGroup sm={10}>
-              <Label for="name">Name:</Label>
-              <Input
-                type="text"
-                name="name"
-                placeholder="Enter a name"
-                {...register("name", { required: { value: true, message: "type a name" } })}
-                invalid={errors.name}
-              />
-              {errors.name && <FormText className="text-danger">{errors.name.message}</FormText>}
-            </FormGroup>
-            <FormGroup>
-              <Label for="lastname">Last name:</Label>
-              <Input
-                type="text"
-                name="lastname"
-                placeholder="Enter a last name"
-                {...register("lastname", { required: { value: true, message: "type a last name" } })}
-                invalid={errors.lastname}
-              />
-              {errors.lastname && <FormText className="text-danger">{errors.lastname.message}</FormText>}
-            </FormGroup>
-            <FormGroup>
-              <Label for="email">Email:</Label>
-              <Input
-                type="email"
-                name="email"
-                placeholder="Enter an email"
-                {...register("email", {
-                  required: "Email is required",
-                  pattern: {
-                    value:
-                      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                    message: "Please enter a valid email",
-                  },
-                })}
-                invalid={errors.email}
-              />
-              {errors.email && <FormText className="text-danger">{errors.email.message}</FormText>}
-            </FormGroup>
+            <Step1 />
           </section>
         )}
         {step === 1 && (
           <section>
-            {technologies.map((tec) => (
-              <div key={tec.tec}>
-                <label>
-                  {tec.tec}
-                  <input
-                    type="checkbox"
-                    value={tec.tec}
-                    name="tec"
-                    {...register("tecToAsk", {
-                      required: "Need to pick at least one tec",
-                    })}
-                  />
-                </label>
-              </div>
-            ))}
-            {errors.tec && <FormText className="text-danger">{errors.tec.message}</FormText>}
+            <Step2 />
           </section>
         )}
-        {step === 0 && <Questions />}
+        {step === 2 && <Questions />}
       </Form>
       {renderButton()}
-      <pre>{JSON.stringify(watch(), null, 2)}</pre>
     </Card>
   );
 };

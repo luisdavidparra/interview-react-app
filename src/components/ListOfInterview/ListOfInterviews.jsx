@@ -4,7 +4,6 @@ import IndividualInterview from "./IndividualInterview";
 
 const ListOfInterviews = () => {
   const [interviews, setInterviews] = useState([]);
-
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage] = useState(10);
   const [currentPost, setCurrentPost] = useState();
@@ -19,12 +18,13 @@ const ListOfInterviews = () => {
   const paginate = (num) => {
     setCurrentPage(num);
   };
+
   const deleteInterview = async (id) => {
     if (window.confirm("Are you sure you want to delete?")) {
       await fetch(`http://localhost:8080/interviews/${id}`, { method: "DELETE" });
       setIsDeleting(true);
     } else {
-      console.log("Didn't delete");
+      // console.log("Didn't delete");
     }
   };
 
@@ -38,12 +38,24 @@ const ListOfInterviews = () => {
       setInterviews(interviewsFetched);
     };
     getInterviews();
-    console.log("Effect");
     setIsDeleting(false);
   }, [currentPage, postPerPage, isDeleting]);
 
+  useEffect(() => {
+    if (currentPage === 1) {
+      return null;
+    }
+    if ((currentPage - 1) * 10 + 1 > interviews.length) {
+      setCurrentPage(currentPage - 1);
+    }
+  }, [interviews]);
+
   if (!currentPost) {
-    return <h2>Loading...</h2>;
+    return (
+      <div className="spinner-border" role="status">
+        <span className="sr-only">Loading...</span>
+      </div>
+    );
   }
 
   return (
