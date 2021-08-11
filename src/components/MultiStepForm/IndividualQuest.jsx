@@ -22,13 +22,13 @@ const IndividualQuest = ({ Tec }) => {
   return (
     <div>
       {questions.map((quest, i) => (
-        <div className="justify-content-between" key={i}>
-          <h6 className="text-start">
-            {quest.name}
-            {Tec}
-          </h6>
-          <div className="justify-content-between d-flex row">
-            <div className="d-flex justify-content-between col-12 col-md-9">
+        <>
+          <div className="justify-content-between" key={i}>
+            <h6 className="text-start">
+              {quest.name}
+              {Tec}
+            </h6>
+            <div className="d-flex justify-content-between col-12 col-md-12">
               {[...Array(7).keys()].map((opt) => (
                 <div className="middle-size">
                   <div className="d-inline-block form-check " key={opt}>
@@ -49,12 +49,13 @@ const IndividualQuest = ({ Tec }) => {
                   </div>
                 </div>
               ))}
-            </div>
-            <div className="col-12 col-md-3 text-end text-danger fw-bold">
-              {errors[`${quest.name}${Tec}`] && <span>{errors[`${quest.name}${Tec}`].message}</span>}
+              <div className="col-12 col-md-3 text-end text-danger fw-bold">
+                {errors[`${quest.name}${Tec}`] && <span>{errors[`${quest.name}${Tec}`].message}</span>}
+              </div>
             </div>
           </div>
-        </div>
+          <hr />
+        </>
       ))}
     </div>
   );

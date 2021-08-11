@@ -50,267 +50,27 @@
   "interviews": [
     {
       "name": "John",
-      "lastname": "Watts",
-      "email": "John@Watts.com",
-      "tecToAsk": [
-        "ReactJS",
-        "Bootstrap"
-      ],
-      "How much do you know about ReactJS": "1",
-      "Amount of apps made with ReactJS": "1",
-      "Level of ReactJS": "2",
-      "How much do you know about Bootstrap": "2",
-      "Amount of apps made with Bootstrap": "3",
-      "Level of Bootstrap": "4",
-      "totalAverage": 36.111111111111114,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027508
-    },
-    {
-      "name": "John",
-      "lastname": "Watts",
-      "email": "John@Watts.com",
-      "tecToAsk": [
-        "ReactJS",
-        "Bootstrap"
-      ],
-      "How much do you know about ReactJS": "1",
-      "Amount of apps made with ReactJS": "1",
-      "Level of ReactJS": "2",
-      "How much do you know about Bootstrap": "2",
-      "Amount of apps made with Bootstrap": "3",
-      "Level of Bootstrap": "4",
-      "totalAverage": 36.111111111111114,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027508
-    },
-    {
-      "name": "John",
-      "lastname": "Watts",
-      "email": "John@Watts.com",
-      "tecToAsk": [
-        "ReactJS",
-        "Bootstrap"
-      ],
-      "How much do you know about ReactJS": "1",
-      "Amount of apps made with ReactJS": "1",
-      "Level of ReactJS": "2",
-      "How much do you know about Bootstrap": "2",
-      "Amount of apps made with Bootstrap": "3",
-      "Level of Bootstrap": "4",
-      "totalAverage": 36.111111111111114,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027508
-    },
-    {
-      "name": "John",
-      "lastname": "Watts",
-      "email": "John@Watts.com",
-      "tecToAsk": [
-        "ReactJS",
-        "Bootstrap"
-      ],
-      "How much do you know about ReactJS": "1",
-      "Amount of apps made with ReactJS": "1",
-      "Level of ReactJS": "2",
-      "How much do you know about Bootstrap": "2",
-      "Amount of apps made with Bootstrap": "3",
-      "Level of Bootstrap": "4",
-      "totalAverage": 36.111111111111114,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027508
-    },
-    {
-      "name": "John",
-      "lastname": "Watts",
-      "email": "John@Watts.com",
-      "tecToAsk": [
-        "ReactJS",
-        "Bootstrap"
-      ],
-      "How much do you know about ReactJS": "1",
-      "Amount of apps made with ReactJS": "1",
-      "Level of ReactJS": "2",
-      "How much do you know about Bootstrap": "2",
-      "Amount of apps made with Bootstrap": "3",
-      "Level of Bootstrap": "4",
-      "totalAverage": 36.111111111111114,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027508
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
+      "lastname": "Jones",
+      "email": "John@Jones.com",
       "tecToAsk": [
         "HTML",
-        "AngularJS"
+        "CSS"
       ],
-      "How much do you know about HTML": "6",
+      "How much do you know about HTML": "3",
       "Amount of apps made with HTML": "6",
       "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
+      "How much do you know about CSS": "6",
+      "Amount of apps made with CSS": "6",
+      "Level of CSS": "6",
+      "totalAverage": 91.66666666666667,
       "date": {
-        "dayWeek": 2,
-        "day": 10,
+        "dayWeek": 3,
+        "day": 11,
         "month": 7,
-        "hour": 11,
+        "hour": 14,
         "year": 2021
       },
-      "id": 628633027509
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
-      "tecToAsk": [
-        "HTML",
-        "AngularJS"
-      ],
-      "How much do you know about HTML": "6",
-      "Amount of apps made with HTML": "6",
-      "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027509
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
-      "tecToAsk": [
-        "HTML",
-        "AngularJS"
-      ],
-      "How much do you know about HTML": "6",
-      "Amount of apps made with HTML": "6",
-      "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027509
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
-      "tecToAsk": [
-        "HTML",
-        "AngularJS"
-      ],
-      "How much do you know about HTML": "6",
-      "Amount of apps made with HTML": "6",
-      "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027509
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
-      "tecToAsk": [
-        "HTML",
-        "AngularJS"
-      ],
-      "How much do you know about HTML": "6",
-      "Amount of apps made with HTML": "6",
-      "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027509
-    },
-    {
-      "name": "Tom",
-      "lastname": "Holland",
-      "email": "Tom@Holland.com",
-      "tecToAsk": [
-        "HTML",
-        "AngularJS"
-      ],
-      "How much do you know about HTML": "6",
-      "Amount of apps made with HTML": "6",
-      "Level of HTML": "6",
-      "How much do you know about AngularJS": "6",
-      "Amount of apps made with AngularJS": "6",
-      "Level of AngularJS": "6",
-      "totalAverage": 100,
-      "date": {
-        "dayWeek": 2,
-        "day": 10,
-        "month": 7,
-        "hour": 11,
-        "year": 2021
-      },
-      "id": 628633027509
+      "id": 1
     }
   ]
 }

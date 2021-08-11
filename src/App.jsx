@@ -12,7 +12,7 @@ import MultiStepIndex from "./components/MultiStepForm/MultiStepIndex";
 import ListOfQuest from "./components/ListOfQuest";
 
 function App() {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState(true);
 
   const change = () => {
     setIsOpen((isOpen) => !isOpen);

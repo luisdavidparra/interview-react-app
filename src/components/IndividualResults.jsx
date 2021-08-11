@@ -13,8 +13,16 @@ const IndividualResults = () => {
   const [tecAverage, setTecAverage] = useState([]);
   const { id } = useParams();
 
-  const onSetTecAverage = () => {
-    if (!tecAverage) {
+  useEffect(() => {
+    const getData = async () => {
+      const data = await fetchOneInterview(id);
+      setInterview(data);
+    };
+    getData();
+  }, [id]);
+
+  useEffect(() => {
+    if (!interview) {
       return null;
     }
 
@@ -28,30 +36,8 @@ const IndividualResults = () => {
       }, 0);
       setTecAverage((tecAverage) => [...tecAverage, { [tec]: tecResult }]);
     });
-  };
-
-  const showTecAverage = () => {
-    console.log(tecAverage);
-  };
-
-  useEffect(() => {
-    const getData = async () => {
-      const data = await fetchOneInterview(id);
-      setInterview(data);
-    };
-    getData();
-  }, [id]);
-
-  useEffect(() => {
-    if (!interview) {
-      return null;
-    }
-    onSetTecAverage();
   }, [interview]);
 
-  useEffect(() => {
-    showTecAverage();
-  }, [tecAverage]);
 
   if (!interview) {
     return (

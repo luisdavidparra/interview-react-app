@@ -10,7 +10,8 @@ const Step1 = () => {
 
   return (
     <>
-      <FormGroup sm={10}>
+      <FormGroup sm={10} >
+        <h5>Insert candidate information</h5>
         <Label for="name">Name:</Label>
         <Input
           type="text"

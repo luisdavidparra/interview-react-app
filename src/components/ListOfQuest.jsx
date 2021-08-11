@@ -63,7 +63,9 @@ const ListOfQuest = () => {
       <div className="col-12 col-md-10 m-auto">
         <p className="h5 text-start">List of technologies:</p>
         {!technologies ? (
-          <p>Loading...</p>
+          <div className="spinner-border" role="status">
+            <span className="sr-only">Loading...</span>
+          </div>
         ) : (
           <ul className="list-group">
             {technologies.map((tec) => (

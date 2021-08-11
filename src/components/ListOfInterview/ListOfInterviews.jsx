@@ -42,12 +42,15 @@ const ListOfInterviews = () => {
   }, [currentPage, postPerPage, isDeleting]);
 
   useEffect(() => {
-    if (currentPage === 1) {
-      return null;
+    if (interviews.length === 0) {
+      return;
     }
-    if ((currentPage - 1) * 10 + 1 > interviews.length) {
-      setCurrentPage(currentPage - 1);
-    }
+    setCurrentPage((currentPage) => {
+      if ((currentPage - 1) * 10 + 1 > interviews.length) {
+        return currentPage - 1;
+      }
+      return currentPage;
+    });
   }, [interviews]);
 
   if (!currentPost) {
@@ -57,52 +60,62 @@ const ListOfInterviews = () => {
       </div>
     );
   }
-
-  return (
-    <div className="col-12 col-lg-10 col-md-11 m-auto">
-      <table className="table table-striped table-bordered">
-        <thead className="table-dark">
-          <tr className="row text-center">
-            <th scope="col" className="col-1">
-              #
-            </th>
-            <th scope="col" className="col-4">
-              Name
-            </th>
-            <th scope="col" className="col-2 Average">
-              Average
-            </th>
-            <th scope="col" className="col-3">
-              Date
-            </th>
-            <th scope="col" className="col-2">
-              Actions
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <IndividualInterview
-            posts={currentPost}
-            deleteInterview={deleteInterview}
-            currentPage={currentPage}
+  if (interviews.length === 0) {
+    return (
+      <>
+        <h5>There's not interviews</h5>
+        <a className="btn btn-primary px-3 mt-2 float-end" href="/new-interview">
+          New Interview
+        </a>
+      </>
+    );
+  } else {
+    return (
+      <div className="col-12 col-lg-10 col-md-11 m-auto">
+        <table className="table table-striped table-bordered">
+          <thead className="table-dark">
+            <tr className="row text-center">
+              <th scope="col" className="col-1">
+                #
+              </th>
+              <th scope="col" className="col-4">
+                Name
+              </th>
+              <th scope="col" className="col-2 Average">
+                Average
+              </th>
+              <th scope="col" className="col-3">
+                Date
+              </th>
+              <th scope="col" className="col-2">
+                Actions
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <IndividualInterview
+              posts={currentPost}
+              deleteInterview={deleteInterview}
+              currentPage={currentPage}
+              postPerPage={postPerPage}
+            />
+          </tbody>
+        </table>
+        {interviews.length > postPerPage && (
+          <Pagination
+            interviews={interviews}
+            paginate={paginate}
             postPerPage={postPerPage}
+            currentPost={currentPost}
+            currentPage={currentPage}
           />
-        </tbody>
-      </table>
-      {interviews.length > postPerPage && (
-        <Pagination
-          interviews={interviews}
-          paginate={paginate}
-          postPerPage={postPerPage}
-          currentPost={currentPost}
-          currentPage={currentPage}
-        />
-      )}
-      <a className="btn btn-primary px-3 mt-2 float-end" href="/new-interview">
-        New Interview
-      </a>
-    </div>
-  );
+        )}
+        <a className="btn btn-primary px-3 mt-2 float-end" href="/new-interview">
+          New Interview
+        </a>
+      </div>
+    );
+  }
 };
 
 export default ListOfInterviews;

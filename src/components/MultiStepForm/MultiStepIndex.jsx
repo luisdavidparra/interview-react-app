@@ -1,10 +1,11 @@
-import { Button, Card, Form } from "reactstrap";
+import { Button, Card, CardBody, CardTitle, Col, Form } from "reactstrap";
 import { useState, useEffect } from "react";
 import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Questions from "./QuestionsStep";
 import { useDataContext } from "./../../contexts/DataContext";
 import { getAllQuestions } from "../../services/questions";
+import { Link } from "react-router-dom";
 
 const MultiStepIndex = () => {
   const [questions, setQuestions] = useState([]);
@@ -15,6 +16,7 @@ const MultiStepIndex = () => {
     handleSubmit,
     formState: { isValid },
   } = methods;
+  const [isDone, setIsDone] = useState(false);
 
   const setAverage = () => {
     const sum = Object.values(watch()).reduce((accum, curr) => {
@@ -29,7 +31,6 @@ const MultiStepIndex = () => {
   };
 
   const completeFormStep = (num) => {
-    console.log(watch());
     if (num === 1) {
       setStep((step) => step + 1);
     } else {
@@ -61,6 +62,7 @@ const MultiStepIndex = () => {
       date: { dayWeek: dateDayWeek, day: dateDay, month: dateMonth, hour: dateHour, year: dateYear },
     };
     onAddNewInterview(newUser);
+    setIsDone(true)
   };
 
   useEffect(() => {
@@ -75,44 +77,67 @@ const MultiStepIndex = () => {
     if (step > 1) {
       return (
         <>
-          <Button color="primary" onClick={handleSubmit(onSubmit)} disabled={!isValid}>
+          <Button color="primary" onClick={handleSubmit(onSubmit)} disabled={!isValid} className="m-3">
             Save
-          </Button>
-          <Button color="danger" onClick={() => completeFormStep(-1)}>
-            Back
           </Button>
         </>
       );
     } else {
       return (
         <>
-          <Button color="primary" onClick={() => completeFormStep(1)} disabled={!isValid}>
+          <Button color="primary" onClick={() => completeFormStep(1)} disabled={!isValid} className="mb-3 mx-3">
             Next
-          </Button>
-          <Button color="danger" onClick={() => completeFormStep(-1)}>
-            Back
           </Button>
         </>
       );
     }
   };
+
   return (
-    <Card>
-      <Form onSubmit={handleSubmit(onSubmit)}>
-        {step === 0 && (
-          <section className="text-start p-4">
-            <Step1 />
-          </section>
-        )}
-        {step === 1 && (
-          <section>
-            <Step2 />
-          </section>
-        )}
-        {step === 2 && <Questions />}
-      </Form>
-      {renderButton()}
-    </Card>
+    <>
+      {!isDone ? (
+        <Card>
+          <>
+            <Form onSubmit={handleSubmit(onSubmit)}>
+              {step === 0 && (
+                <section className="text-start p-4">
+                  <Step1 />
+                </section>
+              )}
+              {step === 1 && (
+                <section className="text-start p-4">
+                  <Step2 />
+                </section>
+              )}
+              {step === 2 && <Questions />}
+            </Form>
+            {renderButton()}
+          </>
+        </Card>
+      ) : (
+        <>
+          <Col sm="6" className="mx-auto">
+            <Card>
+              <div className="bg-success" style={{ height: "130px" }}>
+                <div
+                  style={{ borderRadius: "50%", height: "75px", width: "75px" }}
+                  className="bg-white mx-auto my-2 d-flex align-items-end"
+                >
+                  <p className="mx-auto fs-2">✔</p>
+                </div>
+                <p className="mx-auto fs-4 text-white">Success!</p>
+              </div>
+              <CardBody>
+                <CardTitle tag="h5">The interview have been saved</CardTitle>
+                <Link to="/" className="btn btn-primary mt-2">
+                  Go main
+                </Link>
+              </CardBody>
+            </Card>
+          </Col>
+        </>
+      )}
+    </>
   );
 };
 

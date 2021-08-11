@@ -24,7 +24,7 @@ const QuestionsStep = () => {
               >
                 <div className="d-flex justify-content-between w-50">
                   {Tec}
-                  {errors.Tec && <span className="text-danger">Falta llenar esta opción</span>}
+                  {/* {errors.Tec && <span className="text-danger">Falta llenar esta opción</span>} */}
                 </div>
               </button>
             </h2>
@@ -34,8 +34,8 @@ const QuestionsStep = () => {
               aria-labelledby={`heading${index}`}
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body bg-white d-flex justify-content-between">
-                <IndividualQuest Tec={Tec} />
+              <div class="accordion-body bg-white justify-content-between">
+                <IndividualQuest Tec={Tec}  />
               </div>
             </div>
           </div>
